@@ -86,9 +86,9 @@ int Calculator::implement(ifstream &ifs) {
 
 //calculates the best move using your team's stats, their moves, and the enemy stats
 int Calculator::calculate() {
-	string input; Pokemon enemy; Pokemon current_pokemon; Move current_move; string best_move; string best_pokemon; double damage = 0; //set our variables
+	string input; Pokemon enemy; Pokemon current_pokemon; Move current_move; string best_move = ""; string best_pokemon = ""; double damage; //set our variables
 	while (true) { //repeatedly prompt user until they type in quit
-		double best_damage = 0; //reset our best damage value
+		double best_damage = 0;
 		cout << "Enter name of enemy pokemon or \"quit\"" << endl;
 		getline(cin, input);
 		input = toLowerCase(input);
@@ -103,6 +103,7 @@ int Calculator::calculate() {
 				//OPTIONAL PRINTOUT: uncomment the following line to see your pokemon's name/type and attack/spatk
 				//cout << "pokemon: " << current_pokemon.name << " " << current_pokemon.TYPE1 << " " << current_pokemon.TYPE2 << " " << current_pokemon.ATTACK << " " <<current_pokemon.SPATK << endl;
 				for (unsigned j = 0; j < current_pokemon.moves_vector.size(); ++j) { //iterate through the pokemon's moves 
+					damage = 0;
 					current_move = current_pokemon.moves_vector[j]; 
 					//OPTIONAL: uncomment the following line to see the move's name/type and power
 					//cout << "move: " << current_move.name << " " << current_move.POWER << " " << current_move.PHYSICAL_SPECIAL << " " << current_move.TYPE << endl;
@@ -124,7 +125,12 @@ int Calculator::calculate() {
 					}
 				}
 			}
-			cout << "Best Choice: " << best_pokemon << " " << best_move << endl;
+			if (best_pokemon != "") {
+				cout << "Best Choice: " << best_pokemon << " " << best_move << endl;
+			}
+			else {
+				cout << "Couldn't find a good move to do!" << endl;
+			}
 		}
 		else { //if we couldn't find the enemy in the database 
 			cout << "Could not find enemy name, please check spelling" << endl;

@@ -7,7 +7,7 @@ Given your team's pokemon, their movesets, and the enemy pokemon name you are fa
 damage it will do to the enemy pokemon. Works up to gen 6.
 
 Instructions: 
-In the folder where your .exe is being built (typically "Debug"), insert a .txt doc of your team. Also make sure that "final.txt" and "moves.txt" are all in that folder.
+In the folder where your .exe is being built (typically "Debug"), insert a .txt doc of your team. 
 Structure of your team should be in the format: <pokemon> <move1> <move2> <move3> <move4>
 					for example: scizor metal_claw superpower aerial_ace swords_dance
 In the command line, a typical input could be "pokemoncalculator.exe team.txt". 
@@ -34,6 +34,10 @@ Gourgeist, Gourgeist-Sm, Gourgeist-Su, Gourgeist-L
 General information: 
 As of now, mega evolutions and abilities aren't taken into consideration. So if the enemy has water absorb or levitate, it's not accounted for. 
 In addition, status moves like toxic or thunder wave, and stat boosting/lowering moves like swords dance and nasty plot aren't considered. 
+Levels, EVs, IVs not taken into consideration.
+
+If you haven't noticed, this is for simplistic PvE usage, where you can just keep this running and type in the enemy pokemon for an easy way to 
+tell what to do next. 
 
 To generate "final.txt" and "moves.txt", I wrote a separate program which parsed the information from bulbapedia. Moves was a simple, one step
 parse, but generating final.txt involved parsing pokemon by base stats, then pokemon by type, and then combining the text docs together. 
