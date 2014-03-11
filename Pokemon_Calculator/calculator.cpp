@@ -27,7 +27,7 @@ int Calculator::implement(ifstream &ifs) {
 				while (getline(pokemon_stream, line)) { //read each line from the pokemon stream 
 					Pokemon pokemon_to_add;
 					istringstream iss(line);
-					if (iss >> pokemon_to_add.name && iss >> pokemon_to_add.ATTACK && iss >> pokemon_to_add.DEFENSE && iss >> pokemon_to_add.SPATK && iss>> pokemon_to_add.SPDEF && iss >> pokemon_to_add.SPEED && iss>> pokemon_to_add.TYPE1) { //attempts to read each part of the line into a new Pokemon
+					if (iss >> pokemon_to_add.name && iss >> pokemon_to_add.HP && iss >> pokemon_to_add.ATTACK && iss >> pokemon_to_add.DEFENSE && iss >> pokemon_to_add.SPATK && iss>> pokemon_to_add.SPDEF && iss>> pokemon_to_add.TYPE1) { //attempts to read each part of the line into a new Pokemon
 						iss>> pokemon_to_add.TYPE2; //attempts to add second type if it exists 
 						pokemon_data_base.insert(make_pair(toLowerCase(pokemon_to_add.name), pokemon_to_add)); //insert a new pair into the database <string, Pokemon>
 					}
