@@ -1,4 +1,4 @@
-Pokemon Calculator
+Pokemon Calculator v1.0 
 Kyle Liu
 Last Updated 3/10/14
 
