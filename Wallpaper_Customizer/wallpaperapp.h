@@ -1,8 +1,0 @@
-#ifndef WALLPAPERAPP_H
-#define WALLPAPERAPP_H
-
-enum RETURN_VALUES {SUCCESS, BAD_READ, USAGE, EMPTY_FOLDER};
-
-static bool quit = false;
-
-#endif WALLPAPERAPP_H
