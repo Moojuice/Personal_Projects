@@ -22,4 +22,7 @@ what is your favorite place to eat at, etc!
 Skills: First actual program using javascript. Webscraping using jQuery. Calculations of variable amounts of information. Simple UI popup.
 Understanding of objects and functions in javascript. CSS and HTML utilized for the production as well as for the popup. 
 
+4. League of Legends Voice Timers (Javascript): keep track of your timers hands free! Use voice commands to start timers, and a synthesized voice will alert you 1 minute before they spawn and when they spawn. 
+
+Skills: More experience with javascript. Modular code through use of subroutines and multiple functions. Usage of JS’s synthesized voice option as well as integration of third-party javascript code using annyang’s voice recognition program. Good awareness of how to use voice commands in javascript. 
  
