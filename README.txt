@@ -1,4 +1,4 @@
-Hi my name is Kyle. I am a CS Major at Washington University in St. Louis.
+﻿Hi my name is Kyle. I am a CS Major at Washington University in St. Louis.
 
 To run programs, you may open the C++ files up yourself, or you can open the debug files and run the application. 
 
@@ -26,3 +26,6 @@ Understanding of objects and functions in javascript. CSS and HTML utilized for 
 
 Skills: More experience with javascript. Modular code through use of subroutines and multiple functions. Usage of JS’s synthesized voice option as well as integration of third-party javascript code using annyang’s voice recognition program. Good awareness of how to use voice commands in javascript. 
  
+5. Windows Wallpaper Assistant (Java): use an automated system to move your files into day or night folders based on brightness! The perfect companion for the Windows Wallpaper Customizer!
+
+Skills: Java file IO, color and image understanding, file and directory manipulation (cloning, moving files, creating directories, deleting files)
