@@ -29,3 +29,7 @@ Skills: More experience with javascript. Modular code through use of subroutines
 5. Windows Wallpaper Assistant (Java): use an automated system to move your files into day or night folders based on brightness! The perfect companion for the Windows Wallpaper Customizer!
 
 Skills: Java file IO, color and image understanding, file and directory manipulation (cloning, moving files, creating directories, deleting files)
+
+6. Motion Sickness! / Roadtrip Game (Python): using pygame, my first game is here! Dodge the obstacles as you try to last as long as your stomach can handle! Currently in a basic framework state with more propsed changes to be made (as specified in its readme) 
+
+Skills: Python (self-taught)! Pygame libraries and utilities, creating a basic GUI, creating basic graphics (shapes), lists/iteration, timers, sprite creation/animation, game design
