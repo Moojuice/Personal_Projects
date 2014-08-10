@@ -33,3 +33,7 @@ Skills: Java file IO, color and image understanding, file and directory manipula
 6. Motion Sickness! / Roadtrip Game (Python): using pygame, my first game is here! Dodge the obstacles as you try to last as long as your stomach can handle! Currently in a basic framework state with more propsed changes to be made (as specified in its readme) 
 
 Skills: Python (self-taught)! Pygame libraries and utilities, creating a basic GUI, creating basic graphics (shapes), lists/iteration, timers, sprite creation/animation, game design
+
+7. Pyoko Pyoko Ultra!/ Chick Platformer (Unity/C#): eat up and fatten your chick and get to the end! Currently in a very early stage, but level design is coming up next!
+
+Skills: Unity  (camera, self-created physics, player controls -- jumping, crouching, sprinting, moving platforms, animation), C# scripting - class structures, Unity functions  
