@@ -19,7 +19,7 @@ with threading in Java), rand() and seeding
 3. Mealpoint Account Details Program (Javascript): get detailed statistics on your recent purchases, like on average how much are you spending,
 what is your favorite place to eat at, etc! 
 
-Skills: First actual program using javascript. Webscraping using jQuery. Calculations of variable amounts of information. Simple UI popup.
+Skills: First actual program using javascript (self-taught). Webscraping using jQuery. Calculations of variable amounts of information. Simple UI popup.
 Understanding of objects and functions in javascript. CSS and HTML utilized for the production as well as for the popup. 
 
 4. League of Legends Voice Timers (Javascript): keep track of your timers hands free! Use voice commands to start timers, and a synthesized voice will alert you 1 minute before they spawn and when they spawn. 
@@ -36,4 +36,8 @@ Skills: Python (self-taught)! Pygame libraries and utilities, creating a basic G
 
 7. Pyoko Pyoko Ultra!/ Chick Platformer (Unity/C#): eat up and fatten your chick and get to the end! Currently in a very early stage, but level design is coming up next!
 
-Skills: Unity  (camera, self-created physics, player controls -- jumping, crouching, sprinting, moving platforms, animation), C# scripting - class structures, Unity functions  
+Skills: Unity (self-taught) (camera, self-created physics, player controls -- jumping, crouching, sprinting, moving platforms, animation), C# scripting - class structures, Unity functions  
+
+8. WUSTL Mealpoints App (Obj-C): first time delving into objective c, using webscraping to get all of WUSTL student's mealpoints information into a format that gives useful information
+
+Skills: Objective C (self-taught), parsing, web scraping 
